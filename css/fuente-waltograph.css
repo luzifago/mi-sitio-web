@@ -16,13 +16,17 @@ span {
     font-size: 13em ;
     color: white;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 /* cinzel-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'waltograph';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     src: url(../fonts/waltograph42.otf) ,
          url(../fonts/waltographUI.ttf) ;
          

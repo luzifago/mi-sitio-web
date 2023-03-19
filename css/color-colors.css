@@ -1,75 +1,65 @@
-h2 {
+h2{
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.box-color {
+.box-colores{
     display: flex;
     flex-direction: row;
 }
-
-.box-color {
+.box-color{
     width: 250px;
     height: 250px;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(238, 13, 13);
 }
-span {
+span{
     color: white;
     font-size: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.color-rojo{
+.color-rojo {
     background-color: red;
-    float: left;
-    margin: 110px;
+ 
 }
 .color-verde {
     background-color: green;
-    float: left;
-    margin: 110px;
+  
 }
 .color-azul{
     background-color: blue;
-    float: left;
-    margin: 110px;
+   
 }
 
 .color-255-0-0 {
     background-color: rgb(255, 0, 0);
-    float: left;
-    margin: 110px;
+   
 }
 
 .color-135-12-18 {
     background-color: rgb(135, 12, 18);
-    float: left;
-    margin: 110px;
+
 }
 
 .color-48-145-123 {
     background-color: rgb(48, 145, 123);
-    float: left;
-    margin: 110px;
+ 
 }
 
 
 .color-ff25a7 {
     background-color: #ff25a7;
-    float: left;
-    margin: 110px;
+  
     
 }
 .color-c0c0c0 {
     background-color: #c0c0c0;
-    float: left;
-    margin: 110px;
+  
 }
 
 .color-ffbf00 {
     background-color: #ffbf00;
-    float: left;
-    margin: 110px;
+   
 }

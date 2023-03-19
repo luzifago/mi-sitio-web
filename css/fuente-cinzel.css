@@ -13,8 +13,12 @@ div {
 
 span {
     font-family: 'cinzel';
-    font-size: 13em;
-    color: rgb(22, 19, 19);
+    font-size: 7em;
+    color: rgb(97, 18, 18);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* cinzel-regular - latin */

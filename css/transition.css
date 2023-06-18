@@ -1,0 +1,110 @@
+body{
+    background-color: aliceblue;
+}
+h2{
+    color: #1e90ff;
+    font-style: italic; 
+}
+
+
+.box-1{
+    height: 300px;
+    width: 300px;
+    background-color: #ff7f50;
+    transition: background-color 1.9s;
+}
+.box-1:hover{
+    background-color: #52433e;
+    cursor: pointer;
+}
+.box-2{
+    height: 300px;
+    width: 300px;
+    background-color: #ffd700;
+    transition: background-color 1.5s;
+}
+.box-2:hover{
+    height: 300px;
+    width: 450px;
+    background-color: #5a5956;
+    cursor: pointer;
+}
+.box-3{
+    height: 300px;
+    width: 400px;
+    background-color: #808080;
+    
+}
+.box-3-1:hover{
+    left: 100px;
+}
+.box-3-1{
+    position:absolute;
+    height: 300px;
+    width:300px;
+    background-color:rgb(226, 114, 91,0.8);
+    transition: background-color all 1.5s;
+}
+
+.box-3:hover > .box-3-1{
+    cursor: pointer;
+    left: 100px;
+
+}
+.box-toggle-off{
+    width: 130px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: #1e90ff;
+    transition: background-color  1.5s;
+}
+.box-toggle-on{
+    width: 130px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: #204161;
+    transition: background-color 1.5s;
+}
+.toggle-off{
+ width: 60px;
+ height: 60px;
+ background-color: white;
+ border-radius: 30px;
+ position: relative;
+ left:3px;
+ top: -22px;
+ transition:all 600ms;
+ 
+}
+.toggle-on{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top: -22px;
+    left: 65px;
+    transition: all 600ms;
+
+}
+.indicator-on{
+    display:inline-block;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.indicator-off{
+    display:inline-block;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    top: 20px;
+    left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box-toggle-off:hover, .box-toggle-on:hover{
+    cursor: pointer;
+}

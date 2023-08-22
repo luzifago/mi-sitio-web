@@ -113,7 +113,7 @@ header ul li a{
 .sci{
     position: absolute;
     top: 50%;
-    right: 30px;
+    right:-20px;
     transform: translateY(-50%);
     display: flex;
     justify-content: center;

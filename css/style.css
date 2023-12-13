@@ -1,0 +1,27 @@
+/*Elementos de clase */
+body{
+    background-color: azure;
+}
+div{
+    background-color: rgb(78, 71, 64);
+}
+h1, h2, h3{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+}
+
+ fieldset{
+    background-color: beige;
+    list-style-type:decimal
+    
+    
+
+}
+h2, h3 {
+    color: rgb(19, 19, 123);
+}
+li{
+    color: rgb(19, 19, 123);
+}
+
